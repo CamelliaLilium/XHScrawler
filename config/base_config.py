@@ -111,14 +111,14 @@ XHS_SPECIFIED_NOTE_URL_LIST = [
 # https://www.xiaohongshu.com/user/profile/5ff0e6410000000001005f1a
 # 其中 5ff0e6410000000001005f1a 就是用户ID
 XHS_CREATOR_ID_LIST = [
-    "5ff0e6410000000001005f1a",  # 示例用户ID，请替换为你要爬取的实际用户ID
+    "momo",  # 示例用户ID，请替换为你要爬取的实际用户ID
     # "另一个用户ID",  # 可以添加多个用户ID
     # "第三个用户ID",
 ]
 
 # 词云相关
 # 是否开启生成评论词云图
-ENABLE_GET_WORDCLOUD = False
+ENABLE_GET_WORDCLOUD = True
 # 自定义词语及其分组
 # 添加规则：xx:yy 其中xx为自定义添加的词组，yy为将xx该词组分到的组名。
 CUSTOM_WORDS = {
